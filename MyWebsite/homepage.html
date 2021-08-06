@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>my website</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/customstyle.css">
+<script src="js/customjs.js"></script>
+<body>
+	<div id="all" class="container-fluid">
+		<div class="row">
+			<!-- Bắt đầu header -->
+			<header class="main-header col-sm-12"  id="toppage">
+				<nav class="navbar navbar-expand-lg navbar-dark">
+					<a class="navbar-brand" href="#"><em>Happy</em> School</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav ml-auto">
+							<li class="nav-item">
+								<a class="nav-link" href="#toppage">Home</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+									About Us
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#idwhy_us">Who we are?</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#idcourse">What we do?</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item" href="#idour-course">How it works?</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#idcourse">Courses</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Contact</a>
+							</li>
+						</ul>
+						<form class="form-inline my-2 my-lg-0">
+							<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+						</form>
+					</div>
+				</nav>
+			</header>
+			<!-- Kết thúc header -->
+
+			<!-- Bắt đầu banner -->
+			<section class="video-banner col-sm-12">
+				<section class="video-container">
+					<video autoplay muted loop="true">
+						<source src="./imgs/course-video.mp4" type="video/mp4">
+						</video>
+						<div class="video-overlay-text">
+							<div class="caption">
+								<h6>Graduate School of Management</h6>
+								<h2><em>Your</em> Classroom</h2>
+								<div class="main-button">
+									<div class="scroll-to-section">
+										<a href="#section2">Discover more</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<!-- Kết thúc banner -->
+
+				<!-- Bắt đầu why_us -->
+				<section class="why_us col-sm-12" id="idwhy_us">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="col-sm-12">
+								<div class="text-center">
+									<h2>Why choose Happy School?</h2>
+								</div>
+							</div>
+							<div class="col-sm-12">
+								<div class="row">	
+									<div class="why_us_items col-sm-4">
+										<div class="col-sm-12">
+											<h4 class="why_us_details_h">
+												Best Education
+											</h4>
+										</div>
+										<div class="col-sm-12">
+											<img src="./imgs/choose-us-image-01.png" alt="">
+										</div>
+										<div class="col-sm-12">
+											<p>Happy School is best language school in the world</p>
+										</div>
+									</div>
+
+									<div class="why_us_items col-sm-4">
+										<div class="col-sm-12">
+											<h4 class="why_us_details_h">
+												Quality Meeting
+											</h4>
+										</div>
+										<div class="col-sm-12">
+											<img src="./imgs/choose-us-image-02.png" alt="">
+										</div>
+										<div class="col-sm-12">
+											<p>You can discuss with so many student who come from so many country in the world.</p> 
+										</div>
+									</div>
+
+									<div class="why_us_items col-sm-4">
+										<div class="col-sm-12">
+											<h4 class="why_us_details_h">
+												Top Management
+											</h4>
+										</div>
+										<div class="col-sm-12">
+											<img src="./imgs/choose-us-image-03.png" alt="">
+										</div>
+										<div class="col-sm-12">
+											<p>Study with experience teachers.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Kết thúc why_us -->
+
+				<!-- Bắt đầu Coming Soon -->
+				<section class="course_details col-sm-12" id="idcourse">
+					<div class="container">
+						<div class="row">
+							<div class="col-sm-7">
+								<div class="col-sm-12">
+									<div class="counter-header">
+										<h4>Take <span>any online course</span>  and win <span>1000$</span> for your next class</h4>
+									</div>	
+								</div>
+							</div>
+							<div class="col-sm-5">
+								<div class="register-header col-sm-12">
+									<h6>Register your free account and get <span>immediate access</span> to online courses</h6>
+								</div>
+								<div class="col-sm-12">
+									<form id="contact" action="" method="get">
+										<div class="row">
+											<div class="col-md-12">
+												<fieldset>
+													<input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+												</fieldset>
+											</div>
+											<div class="col-md-12">
+												<fieldset>
+													<input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+												</fieldset>
+											</div>
+											<div class="col-md-12">
+												<fieldset>
+													<input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Your Phone Number" required="">
+												</fieldset>
+											</div>
+											<div class="col-md-12">
+												<fieldset>
+													<button type="submit" id="form-submit" class="button">Get it now</button>
+												</fieldset>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</section>
+				<!-- Kết thúc Coming Soon -->
+
+				<!-- Bắt đầu Course -->
+				<section class="our-course col-sm-12" id="idour-course">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-sm-12">
+								<div class="col-sm-12">
+									<div class="text-center">
+										<h2>Choose your courses</h2>
+									</div>
+								</div>
+
+								<div class="col-sm-12">
+									<div class="row">								
+										<div class="col-sm-3 h-100 rounded">
+											<div class="our-course-details col-sm-12">					
+												<img src="imgs/courses-01.jpg">
+												<div class="down-content">			
+													<h4>Chemical</h4>
+													<p>In many companies, product managers help promote a product. Companies do market analysis as well as competitive research in order to develop a business case for a product. A product roadmap lays out the plan for developing a product.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-3 h-100 rounded">
+											<div class="our-course-details col-sm-12">
+												<img src="imgs/courses-02.jpg">
+												<div class="down-content">		
+													<h4>Business World</h4>
+													<p>BUSINESS ENGLISH focuses on essential knowledge you need, for improved communication, using the English Language at your work.
+														<br>
+													It is an ESL course for those who want to improve their English in the business scenario.</p>
+												</div>
+											</div>
+										</div>
+										<div class="col-sm-3 h-100 rounded">
+											<div class="our-course-details col-sm-12">
+												<img src="imgs/courses-03.jpg">
+												<div class="down-content">							
+													<h4>Media Technology</h4>
+													<p>We’ll be running the course “live” twice, in August and September, for three weeks each. The live sessions will include real-time conversations with instructors and guests, but the course will be available for self-directed learning afterward.</p>
+												</div>				
+											</div>
+										</div>
+										<div class="col-sm-3 h-100 rounded">
+											<div class="our-course-details col-sm-12">
+												<img src="imgs/courses-04.jpg">
+												<div class="down-content">		
+													<h4>Photography</h4>
+													<p>We’ll be running the course “live” twice, in August and September, for three weeks each. The live sessions will include real-time conversations with instructors and guests, but the course will be available for self-directed learning afterward.</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Kết thúc Course -->
+
+				<!-- Bắt đầu Contact -->
+				<section class="Keep_In_Touch col-sm-12">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-6">
+								<form id="contact" action="" method="post">
+									<div class="row">
+										<div class="col-md-6">
+											<fieldset>
+												<input name="name" type="text" class="form-control" id="name" placeholder="Your Name" required="">
+											</fieldset>
+										</div>
+										<div class="col-md-6">
+											<fieldset>
+												<input name="email" type="text" class="form-control" id="email" placeholder="Your Email" required="">
+											</fieldset>
+										</div>
+										<div class="col-md-12">
+											<fieldset>
+												<textarea name="message" rows="6" class="form-control" id="message" placeholder="Your message..." required=""></textarea>
+											</fieldset>
+										</div>
+										<div class="col-md-12">
+											<fieldset>
+												<button type="submit" id="form-submit" class="button">Send Message Now</button>
+											</fieldset>
+										</div>
+									</div>
+								</form>
+								
+							</div>
+							<div class="col-md-6">
+								<div class="col-md-6">
+									<div class="map">
+										<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12114.460146251464!2d-86.64624678642684!3d36.46466839592075!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8864495ffa2c5e3f%3A0xebf808f435515588!2sWhite%20House%20Public%20Library!5e0!3m2!1svi!2s!4v1628084412658!5m2!1svi!2s" width="600" height="450" style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- Kết thúc Contact -->
+
+				<!-- Bắt đầu Footer -->
+				<footer class="col-sm-12">
+					<div class="container">
+						<div class="row">
+							<p class="col-sm-12"><i class="fa fa-copyright"></i> Copyright 2020 by Happy School  
+								| Design: <span>Mr.A</span></p>
+							</div>
+						</div>
+					</footer>
+					<!-- Kết thúc Footer -->
+				</div>
+			</div>
+		</body>
+		</html>
